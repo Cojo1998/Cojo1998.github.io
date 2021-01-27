@@ -819,7 +819,7 @@ section .title::after{
 /* projectSort section styling */
 .projectSort{
     display: flex;
-    background: url("images/sort.png") no-repeat center;
+    background: url("images/sort.PNG") no-repeat center;
     background-size: cover;
     height: 100vh;
     color: #000;
