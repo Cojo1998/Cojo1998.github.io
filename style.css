@@ -36,17 +36,24 @@ section{
     margin: auto;
 }
 .about, .services, .skills, .teams, .contact, .aboutUAV,
-.aboutTB, .aboutFlappy, footer{
+.aboutTB, .aboutFlappy, .aboutTron, .aboutSort, .aboutPlant,
+.aboutQuad, .aboutHome, .aboutBat, footer{
     font-family: 'Poppins', sans-serif;
 }
 .about .about-content, 
 .services .serv-content,
 .skills .skills-content,
 .contact .contact-content,
+.aboutUAV .UAV-content0,
 .aboutUAV .UAV-content1,
 .UAV-content2, .UAV-content3,
 .aboutTB, .TB-content1,
-.aboutFlappy, .Flappy-content1{
+.aboutFlappy, .Flappy-content1,
+.aboutTron, .Tron-content1, .Tron-content2,
+.Tron-content3, .aboutSort, .Sort-content1,
+.aboutPlant, .Plant-content1, .Plant-content2,
+.aboutQuad, .Quad-content1, .Quad-content2,
+.aboutHome, .Home-content1, .aboutBat, .Bat-content1{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -259,7 +266,8 @@ section .title::after{
 
 /* services section styling */
 .services, .teams, .aboutUAV, .aboutTB,
-.aboutFlappy{
+.aboutFlappy, .aboutTron, .aboutSort,
+.aboutPlant, .aboutQuad, .aboutHome, .aboutBat{
     color:#fff;
     background: #111;
 }
@@ -267,14 +275,26 @@ section .title::after{
 .teams .title::before,
 .aboutUAV .title::before,
 .aboutTB .title::before,
-.aboutFlappy .title::before{
+.aboutFlappy .title::before,
+.aboutTron .title::before,
+.aboutSort .title::before,
+.aboutPlant .title::before,
+.aboutQuad .title::before,
+.aboutHome .title::before,
+.aboutBat .title::before{
     background: #fff;
 }
 .services .title::after,
 .teams .title::after,
 .aboutUAV .title::after,
 .aboutTB .title::after,
-.aboutFlappy .title::after{
+.aboutFlappy .title::after,
+.aboutTron .title::after,
+.aboutSort .title::after,
+.aboutPlant .title::after,
+.aboutQuad .title::after,
+.aboutHome .title::after,
+.aboutBat .title::after{
     background: #111;
     content: "where i worked";
 }
@@ -491,6 +511,26 @@ section .title::after{
 /* about UAV section styling */
 .aboutUAV .title::after{
     content: "highlights";
+}
+.aboutUAV .UAV-content0 .left{
+    width: 55%;
+}
+.aboutUAV .UAV-content0 .left img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.aboutUAV .UAV-content0 .right{
+    width: 45%;
+}
+.aboutUAV .UAV-content0 .right .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.aboutUAV .UAV-content0 .right p{
+    text-align: justify;
 }
 .aboutUAV .UAV-content1 .left{
     width: 55%;
@@ -711,6 +751,71 @@ section .title::after{
     background: none;
 }
 
+/* about Tron section styling */
+.aboutTron .title::after{
+    content: "highlights";
+}
+.aboutTron .Tron-content1 .left{
+    width: 55%;
+}
+.aboutTron .Tron-content1 .left img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.aboutTron .Tron-content1 .right{
+    width: 45%;
+}
+.aboutTron .Tron-content1 .right .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.aboutTron .Tron-content1 .right p{
+    text-align: justify;
+}
+.aboutTron .Tron-content2 .left{
+    width: 55%;
+}
+.aboutTron .Tron-content2 .left img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.aboutTron .Tron-content2 .right{
+    width: 45%;
+}
+.aboutTron .Tron-content2 .right .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.aboutTron .Tron-content2 .right p{
+    text-align: justify;
+}
+.aboutTron .Tron-content3 .left{
+    width: 55%;
+}
+.aboutTron .Tron-content3 .left img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.aboutTron .Tron-content3 .right{
+    width: 45%;
+}
+.aboutTron .Tron-content3 .right .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.aboutTron .Tron-content3 .right p{
+    text-align: justify;
+}
+
 /* projectSort section styling */
 .projectSort{
     display: flex;
@@ -745,6 +850,31 @@ section .title::after{
 .projectSort .projectSort-content a:hover{
     color: crimson;
     background: none;
+}
+
+/* about Sort section styling */
+.aboutSort .title::after{
+    content: "highlights";
+}
+.aboutSort .Sort-content1 .left{
+    width: 55%;
+}
+.aboutSort .Sort-content1 .left img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.aboutSort .Sort-content1 .right{
+    width: 45%;
+}
+.aboutSort .Sort-content1 .right .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.aboutSort .Sort-content1 .right p{
+    text-align: justify;
 }
 
 /* projectPlant section styling */
@@ -783,6 +913,51 @@ section .title::after{
     background: none;
 }
 
+/* about Plant section styling */
+.aboutPlant .title::after{
+    content: "highlights";
+}
+.aboutPlant .Plant-content1 .left{
+    width: 55%;
+}
+.aboutPlant .Plant-content1 .left img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.aboutPlant .Plant-content1 .right{
+    width: 45%;
+}
+.aboutPlant .Plant-content1 .right .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.aboutPlant .Plant-content1 .right p{
+    text-align: justify;
+}
+.aboutPlant .Plant-content2 .left{
+    width: 55%;
+}
+.aboutPlant .Plant-content2 .left img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.aboutPlant .Plant-content2 .right{
+    width: 45%;
+}
+.aboutPlant .Plant-content2 .right .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.aboutPlant .Plant-content2 .right p{
+    text-align: justify;
+}
+
 /* projectQuad section styling */
 .projectQuad{
     display: flex;
@@ -817,6 +992,51 @@ section .title::after{
 .projectQuad .projectQuad-content a:hover{
     color: crimson;
     background: none;
+}
+
+/* about Quad section styling */
+.aboutQuad .title::after{
+    content: "highlights";
+}
+.aboutQuad .Quad-content1 .left{
+    width: 55%;
+}
+.aboutQuad .Quad-content1 .left img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.aboutQuad .Quad-content1 .right{
+    width: 45%;
+}
+.aboutQuad .Quad-content1 .right .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.aboutQuad .Quad-content1 .right p{
+    text-align: justify;
+}
+.aboutQuad .Quad-content2 .left{
+    width: 55%;
+}
+.aboutQuad .Quad-content2 .left img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.aboutQuad .Quad-content2 .right{
+    width: 45%;
+}
+.aboutQuad .Quad-content2 .right .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.aboutQuad .Quad-content2 .right p{
+    text-align: justify;
 }
 
 /* projectHome section styling */
@@ -855,6 +1075,31 @@ section .title::after{
     background: none;
 }
 
+/* about Home section styling */
+.aboutHome .title::after{
+    content: "highlights";
+}
+.aboutHome .Home-content1 .left{
+    width: 55%;
+}
+.aboutHome .Home-content1 .left img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.aboutHome .Home-content1 .right{
+    width: 45%;
+}
+.aboutHome .Home-content1 .right .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.aboutHome .Home-content1 .right p{
+    text-align: justify;
+}
+
 /* projectBat section styling */
 .projectBat{
     display: flex;
@@ -889,6 +1134,31 @@ section .title::after{
 .projectBat .projectBat-content a:hover{
     color: crimson;
     background: none;
+}
+
+/* about Bat section styling */
+.aboutBat .title::after{
+    content: "highlights";
+}
+.aboutBat .Bat-content1 .left{
+    width: 55%;
+}
+.aboutBat .Bat-content1 .left img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.aboutBat .Bat-content1 .right{
+    width: 45%;
+}
+.aboutBat .Bat-content1 .right .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.aboutBat .Bat-content1 .right p{
+    text-align: justify;
 }
 
 /* contact section styling */
@@ -1013,11 +1283,22 @@ footer span a:hover{
 
 @media (max-width: 1104px) {
     .about .about-content .left img,
+    .aboutUAV .UAV-content0 .left img,
     .aboutUAV .UAV-content1 .left img,
     .aboutUAV .UAV-content2 .left img,
     .aboutUAV .UAV-content3 .left img,
     .aboutTB .TB-content1 .left img,
-    .aboutFlappy .Flappy-content1 .left img{
+    .aboutFlappy .Flappy-content1 .left img,
+    .aboutTron .Tron-content1 .left img, 
+    .aboutTron .Tron-content2 .left img,
+	.aboutTron .Tron-content3 .left img, 
+	.aboutSort .Sort-content1 .left img,
+	.aboutPlant .Plant-content1 .left img, 
+	.aboutPlant .Plant-content2 .left img,
+	.aboutQuad .Quad-content1 .left img, 
+	.aboutQuad .Quad-content2 .left img,
+	.aboutHome .Home-content1 .left img, 
+	.aboutBat .Bat-content1 .left img{
         height: 350px;
         width: 350px;
     }
@@ -1072,29 +1353,62 @@ footer span a:hover{
         max-width: 930px;
     }
     .about .about-content .column,
+    .aboutUAV .UAV-content0 .column,
     .aboutUAV .UAV-content1 .column,
     .aboutUAV .UAV-content2 .column,
     .aboutUAV .UAV-content3 .column,
     .aboutTB .TB-content1 .column,
-    .aboutFlappy .Flappy-content1 .column{
+    .aboutFlappy .Flappy-content1 .column,
+    .aboutTron .Tron-content1 .column, 
+    .aboutTron .Tron-content2 .column,
+	.aboutTron .Tron-content3 .column, 
+	.aboutSort .Sort-content1 .column,
+	.aboutPlant .Plant-content1 .column, 
+	.aboutPlant .Plant-content2 .column,
+	.aboutQuad .Quad-content1 .column, 
+	.aboutQuad .Quad-content2 .column,
+	.aboutHome .Home-content1 .column, 
+	.aboutBat .Bat-content1 .column{
         width: 100%;
     }
     .about .about-content .left,
+    .aboutUAV .UAV-content0 .left,
     .aboutUAV .UAV-content1 .left,
     .aboutUAV .UAV-content2 .left,
     .aboutUAV .UAV-content3 .left,
     .aboutTB .TB-content1 .left,
-    .aboutFlappy .Flappy-content1 .left{
+    .aboutFlappy .Flappy-content1 .left,
+    .aboutTron .Tron-content1 .left, 
+    .aboutTron .Tron-content2 .left,
+	.aboutTron .Tron-content3 .left, 
+	.aboutSort .Sort-content1 .left,
+	.aboutPlant .Plant-content1 .left, 
+	.aboutPlant .Plant-content2 .left,
+	.aboutQuad .Quad-content1 .left, 
+	.aboutQuad .Quad-content2 .left,
+	.aboutHome .Home-content1 .left, 
+	.aboutBat .Bat-content1 .left{
         display: flex;
         justify-content: center;
         margin: 0 auto 60px;
     }
     .about .about-content .right,
+    .aboutUAV .UAV-content0 .right,
     .aboutUAV .UAV-content1 .right,
     .aboutUAV .UAV-content2 .right,
     .aboutUAV .UAV-content3 .right,
     .aboutTB .TB-content1 .right,
-    .aboutFlappy .Flappy-content1 .right{
+    .aboutFlappy .Flappy-content1 .right
+    .aboutTron .Tron-content1 .right, 
+    .aboutTron .Tron-content2 .right,
+	.aboutTron .Tron-content3 .right, 
+	.aboutSort .Sort-content1 .right,
+	.aboutPlant .Plant-content1 .right, 
+	.aboutPlant .Plant-content2 .right,
+	.aboutQuad .Quad-content1 .right, 
+	.aboutQuad .Quad-content2 .right,
+	.aboutHome .Home-content1 .right, 
+	.aboutBat .Bat-content1 .right{
         flex: 100%;
     }
     .services .serv-content .card{
@@ -1135,11 +1449,22 @@ footer span a:hover{
     }
     .about .about-content .right .text,
     .skills .skills-content .left .text,
+    .aboutUAV .UAV-content0 .right .text,
     .aboutUAV .UAV-content1 .right .text,
     .aboutUAV .UAV-content2 .right .text,
     .aboutUAV .UAV-content3 .right .text,
     .aboutTB .TB-content1 .right .text,
-    .aboutFlappy .Flappy-content1 .right .text,{
+    .aboutFlappy .Flappy-content1 .right .text,
+    .aboutTron .Tron-content1 .right .text, 
+    .aboutTron .Tron-content2 .right .text,
+	.aboutTron .Tron-content3 .right .text, 
+	.aboutSort .Sort-content1 .right .text,
+	.aboutPlant .Plant-content1 .right .text, 
+	.aboutPlant .Plant-content2 .right .text,
+	.aboutQuad .Quad-content1 .right .text, 
+	.aboutQuad .Quad-content2 .right .text,
+	.aboutHome .Home-content1 .right .text, 
+	.aboutBat .Bat-content1 .right .text{
         font-size: 19px;
     }
     .contact .right form .fields{
