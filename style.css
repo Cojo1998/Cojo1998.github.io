@@ -1503,6 +1503,7 @@ footer span a:hover{
 	.aboutHome .Home-content1 .right .text, 
 	.aboutBat .Bat-content1 .right .text{
         font-size: 19px;
+        margin-right: 0px;
     }
     .contact .right form .fields{
         flex-direction: column;
