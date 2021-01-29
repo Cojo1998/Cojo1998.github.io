@@ -362,6 +362,21 @@ section .title::after{
     color: crimson;
     background: none;
 }
+.skills .skills-content .right .text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.skills .skills-content .right a{
+    display: inline-block;
+    background: gray;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 16px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
 .skills .skills-content .right .bars{
     margin-bottom: 15px;
 }
